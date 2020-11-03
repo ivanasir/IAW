@@ -7,6 +7,7 @@
             $edad = "25" ;
             $foto = "" ;
             $cursos = array("ESO", " Instalaciones Eléctricas y Automáticas", "Sistemas Electrotécnicos y Automatizados");
+            $foto = "<img src=https://cdn.dopl3r.com//media/memes_files/bob-esponja-pensando-plantilla-APImB.jpg";
 
             echo "mi nombre es: ";
             echo $nombre ;
@@ -20,6 +21,7 @@
             echo "mis anteriores cursos son ";
             echo $cursos[0] . ", " . $cursos[1] . ", " . $cursos[2] . ".";
             echo "<br>";
+            echo "$foto <br>";
         ?>
 
         <form action="presentacion.php" method="post">
