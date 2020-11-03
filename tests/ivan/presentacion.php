@@ -2,23 +2,23 @@
     <head>Presentacion</head>
     <body>
         <?php
-            $nombre = "ivan"
-            $apellidos = "garcia gonzalez "
-            $edad = "25"
-            $foto = ""
-            $cursos = array("ESO", " Instalaciones Eléctricas y Automáticas", "Sistemas Electrotécnicos y Automatizados")
+            $nombre = "ivan" ;
+            $apellidos = "garcia gonzalez " ;
+            $edad = "25" ;
+            $foto = "" ;
+            $cursos = array("ESO", " Instalaciones Eléctricas y Automáticas", "Sistemas Electrotécnicos y Automatizados");
 
             echo "mi nombre es: ";
-            echo $nombre
+            echo $nombre ;
             echo "<br>";
             echo "mis apellidos son: ";
-            echo $apellidos
+            echo $apellidos ;
             echo "<br>";
             echo "mi edad es: ";
-            echo $edad
+            echo $edad ;
             echo "<br>";
             echo "mis anteriores cursos son ";
-            echo . $cursos[0] . ", " . $cursos[1] . ", " . $cursos[2] . ".";
+            echo $cursos[0] . ", " . $cursos[1] . ", " . $cursos[2] . ".";
             echo "<br>";
         ?>
 
