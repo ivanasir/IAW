@@ -1,0 +1,31 @@
+
+
+{
+    "primera": {
+       "titulo": "the mandalorian",
+       "descripcion": {
+          "p": "es una serie de televisión web que se estrenó en Disney+ el 12 de noviembre de 2019 \n            Ubicada en el universo de Star Wars creado por George Lucas\n            la serie se sitúa unos años después de los eventos de Return of the Jedi,\n            y sigue a un solitario pistolero más allá de los alcances de la República."
+       },
+       "reparto": [
+          "Pedro Pascal",
+          "Carl Weathers",
+          "Gina Carano"
+       ],
+       "productora": "Lucasfilm"
+    },
+    "segunda": {
+       "titulo": "Shingeki no Kyojin",
+       "tituloesp": "Ataque a los titanes",
+       "descripcion": {
+          "p": "Cuenta la historia de la humanidad en una época con estética germana del siglo 19, \n            luchando por sobrevivir durante los ataques de unos seres humanoides gigantes llamados titanes.\n            Los titanes se dedican a comer humanos por puro gusto"
+       },
+       "reparto": [
+          "Yūki Kaji --- Eren Jaeger",
+          "Yui Ishikawa --- Mikasa Ackerman",
+          "Shiori Mikami --- Historia Reiss"
+       ],
+       "productora": "Wit Studio"
+    }
+ }
+ 
+ 
