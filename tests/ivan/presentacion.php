@@ -7,7 +7,7 @@
             $edad = "25" ;
             $foto = "" ;
             $cursos = array("ESO", " Instalaciones Eléctricas y Automáticas", "Sistemas Electrotécnicos y Automatizados");
-            $foto = "<img src=https://cdn.dopl3r.com//media/memes_files/bob-esponja-pensando-plantilla-APImB.jpg";
+            $foto = "<img src= https://cdn.dopl3r.com//media/memes_files/bob-esponja-pensando-plantilla-APImB.jpg>";
 
             echo "mi nombre es: ";
             echo $nombre ;
