@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            function crearhtml(){
+            function hacerhtml(){
               echo "<html>";
               echo "<head>";
               echo "<title>Este es el título</title>";
@@ -18,7 +18,7 @@
               echo "</html>";
             }
 
-            crearhtml();
+            hacerhtml();
         ?>
 
     </body>
