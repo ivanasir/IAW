@@ -1,5 +1,5 @@
 <?php
-    for ($n =2; $n <= 20; $n+=2) {
+    for ($n =6; $n <= 60; $n+=6) {
     echo "el resultado es: $n <br>";
     }
 ?> 
