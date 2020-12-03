@@ -1,8 +1,8 @@
 <html>
     <body>
         <form action="formulario_script.php" method="POST">
-            valor a <input type="number" name="input_a"></br>
-            valor b <input type="number" name="input_b"></br>
+            valor a <input type="number" name="input_a" required="required"></br>
+            valor b <input type="number" name="input_b" required="required"></br>
 
 
             <input type="submit" value="sumar" name="sumar">
