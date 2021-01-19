@@ -27,8 +27,8 @@ session_start();
   <h1>Formulario en dos pasos (Resultado)</h1>
 
 <?php
-echo $_SESSION['nombre'];
-echo $_SESSION['apellidos'];
+echo $_SESSION['nombre']."</br>";
+echo $_SESSION['apellidos']."</br>";
 print "<!-- Ejercicio incompleto -->\n";
 print "\n";
 
