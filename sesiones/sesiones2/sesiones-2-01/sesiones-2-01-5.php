@@ -7,6 +7,7 @@
  */
 
 print "<!-- Ejercicio incompleto -->\n";
+session_start();
 
 ?>
 <!DOCTYPE html>
@@ -26,7 +27,8 @@ print "<!-- Ejercicio incompleto -->\n";
   <h1>Formulario en dos pasos (Resultado)</h1>
 
 <?php
-
+echo $_SESSION['nombre'];
+echo $_SESSION['apellidos'];
 print "<!-- Ejercicio incompleto -->\n";
 print "\n";
 
