@@ -25,7 +25,7 @@ print "<!-- Ejercicio incompleto -->\n";
 <body>
   <h1>Formulario en dos pasos (Formulario 2)</h1>
 
-  <form action="sesiones-2-01-4.php" method="get">
+  <form action="sesiones-2-01-4.php" method="POST">
     <p>Escriba sus apellidos:</p>
 
 <?php
