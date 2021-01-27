@@ -48,20 +48,6 @@
       ?>
     </li>
 
-
-    <li>
-        <a href="borrar_base.php">borrar base datos</a>
-        <?php
-        if(isset($_SESSION['borrar_base'])){
-          if($_SESSION['borrar_base']){
-            echo "<span class='green'>Hecho exitosamente</span>";
-          }else{
-            echo "<span class='red'>Hecho con errores</span>";
-          }
-        }
-      ?>
-    </li>
-
     <li>
         <a href="crear_jugador.php">crear tabla jugadores</a>
         <?php
@@ -74,10 +60,106 @@
         }
       ?>
     </li>
+    <li>
+        <a href="insertar_jugadores.php">crear tabla jugadores</a>
+        <?php
+        if(isset($_SESSION['crear_datos_jugadores'])){
+          if($_SESSION['crear_datos_jugadores']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="crear_tabla_partido.php">crear tabla partidos</a>
+        <?php
+        if(isset($_SESSION['crear_tabla_partidos'])){
+          if($_SESSION['crear_tabla_partidos']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="insertar_datos_partido.php">insertar datos partidos</a>
+        <?php
+        if(isset($_SESSION['insertar_datos_partidos'])){
+          if($_SESSION['insertar_datos_partidos']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="crear_tabla_posicion.php">crear tabla posicion</a>
+        <?php
+        if(isset($_SESSION['crear_tabla_posicion'])){
+          if($_SESSION['crear_tabla_posicion']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="insertar_posicion.php">insertar datos posicion</a>
+        <?php
+        if(isset($_SESSION['insertar_datos_posicion'])){
+          if($_SESSION['insertar_datos_posicion']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="crear_jugador_posicion.php">crear tabla jugador posicion</a>
+        <?php
+        if(isset($_SESSION['crear_tabla_jugador_posicion'])){
+          if($_SESSION['crear_tabla_jugador_posicion']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="insertar_datos_jugador_posicion.php">insertar datos jugador posicion</a>
+        <?php
+        if(isset($_SESSION['insertar_jugador_posicion'])){
+          if($_SESSION['insertar_jugador_posicion']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
+    <li>
+        <a href="borrar_base.php">borrar base datos</a>
+        <?php
+        if(isset($_SESSION['borrar_base'])){
+          if($_SESSION['borrar_base']){
+            echo "<span class='green'>Hecho exitosamente</span>";
+          }else{
+            echo "<span class='red'>Hecho con errores</span>";
+          }
+        }
+      ?>
+    </li>
   </ol>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>ivan</p>
   </footer>
 </body>
 </html>

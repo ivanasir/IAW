@@ -12,17 +12,16 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO `jugador` (`id`, `name`, `equipo_id`) VALUES
-(1, 'Marc Gasol', 2),
-(2, 'Pau Gasol', 1),
-(4, 'Lebron James', 2);";
+$sql = "INSERT INTO `partido` (`id`, `equipo_v_id`, `equipo_l_id`, `resultado`) VALUES
+(1, 1, 2, '108-95'),
+(2, 3, 1, '105-124');";
 
 $resultado = $conn->query($sql);
 
 if ($resultado) {
-    $_SESSION['crear_datos_jugadores'] = true;
+    $_SESSION['insertar_datos_partidos'] = true;
 }else{
-    $_SESSION['crear_datos_jugadores'] = false;
+    $_SESSION['insertar_datos_partidos'] = false;
 }
 echo "Connected successfully";
 mysqli_close($conn);
